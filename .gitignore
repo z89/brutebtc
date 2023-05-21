@@ -1,0 +1,12 @@
+# Ignore everything in the root
+/*
+
+# Un-ignore all of subtree
+!cmd/*
+!.vscode
+!.gitignore
+!go.mod
+!go.sum
+!LICENSE
+!brutebtc.go
+!README.md
