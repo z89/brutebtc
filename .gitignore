@@ -2,11 +2,9 @@
 /*
 
 # Un-ignore all of subtree
-!cmd/*
 !.vscode
 !.gitignore
-!go.mod
-!go.sum
+!brutebtc.cpp
+!.clang-format
 !LICENSE
-!brutebtc.go
 !README.md

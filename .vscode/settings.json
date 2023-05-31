@@ -1,6 +1,6 @@
 {
-  "[go]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "golang.go"
+  "editor.formatOnSave": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
   }
 }
