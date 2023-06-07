@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Launch",
+            "name": "C/C++: g++ build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/brutebtc",
+            "program": "${workspaceRoot}/brutebtc",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -23,8 +23,8 @@
                     "text": "-gdb-set disassembly-flavor intel",
                     "ignoreFailures": true
                 }
-            ]
+            ],
+            "preLaunchTask": "build"
         }
-
     ]
 }
